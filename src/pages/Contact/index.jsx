@@ -8,44 +8,44 @@ const ContactPage = () => {
       <PageTitle title='Contact Us'/>
 
       {/* CONTACT */}
-      <div class="contact">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <form class="main_form">
-                <div class="row">
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+      <div className="contact">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <form className="main_form">
+                <div className="row">
+                  <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                     <input
-                      class="form-control"
+                      className="form-control"
                       placeholder="Your name"
                       type="text"
                       name="Your Name"
                     />
                   </div>
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                  <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                     <input
-                      class="form-control"
+                      className="form-control"
                       placeholder="Email"
                       type="text"
                       name="Email"
                     />
                   </div>
-                  <div class=" col-md-12">
+                  <div className=" col-md-12">
                     <input
-                      class="form-control"
+                      className="form-control"
                       placeholder="Phone"
                       type="text"
                       name="Phone"
                     />
                   </div>
-                  <div class="col-md-12">
+                  <div className="col-md-12">
                     <textarea
-                      class="textarea"
+                      className="textarea"
                       placeholder="Message">
                     </textarea>
                   </div>
-                  <div class=" col-md-12">
-                    <button class="send">Send</button>
+                  <div className=" col-md-12">
+                    <button className="send">Send</button>
                   </div>
                 </div>
               </form>

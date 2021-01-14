@@ -3,8 +3,8 @@ import React from 'react';
 const ProductCard = ({ product }) => {
   const { img, name, price } = product;
   return (
-    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-        <div class="product-box">
+    <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+        <div className="product-box">
           <i>
             <img
               src={img}

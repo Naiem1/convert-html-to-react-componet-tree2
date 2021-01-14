@@ -11,11 +11,11 @@ const ProductPage = () => {
       <PageTitle title='Our Product'/>
 
       {/* OUR PRODUCT */}
-      <div class="product">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="title"> 
+      <div className="product">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="title"> 
                 <span>{data.products.headingText }</span>
               </div>
             </div>
@@ -23,7 +23,7 @@ const ProductPage = () => {
         </div>
       </div>
 
-      <div class="product-bg">
+      <div className="product-bg">
         <Product
           slice={12}
         />

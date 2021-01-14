@@ -6,15 +6,15 @@ const { default: ProductCard } = require("../ProductCard")
 const Product = ({slice}) => {
 
   const dataInfo = data.product.slice(0, slice)
-  console.log(dataInfo)
 
   return (
-    <div class="product-bg-white">
-      <div class="container">
-          <div class="row">
+    <div className="product-bg-white">
+      <div className="container">
+          <div className="row">
             {
-              dataInfo.map(product => (
+              dataInfo.map((product, i) => (
                 <ProductCard
+                  key={i}
                   product={product}
                 />
               ))

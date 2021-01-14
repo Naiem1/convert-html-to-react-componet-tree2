@@ -13,18 +13,18 @@ const AboutPage = () => {
       <PageTitle title='about'/>
 
       {/* ABOUT */}
-      <div class="about">
-        <div class="container">
-          <div class="row">
-            <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-              <div class="about_box">
+      <div className="about">
+        <div className="container">
+          <div className="row">
+            <dir className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+              <div className="about_box">
                 <figure>
                   <img src={PcLayout} alt="pc layout" />
                 </figure>
               </div>
             </dir>
-            <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-              <div class="about_box">
+            <dir className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+              <div className="about_box">
                 <h3>Who is Lighten</h3>
                 <p>
                   It has survived not only five centuries, but also the leap into electronic 

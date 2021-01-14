@@ -18,6 +18,7 @@ const NavLink = props => (
   />
 );
 
+
 const Navigation = () => {
   return (
     <header>

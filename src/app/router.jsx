@@ -10,7 +10,7 @@ import ProductPage from '../pages/Product';
 const AppRouter = () => {
   return (
     <div>
-      <Navigation/>
+      <Navigation />
       <Router>
         <HomePage path='/' />
         <AboutPage path='/about' />

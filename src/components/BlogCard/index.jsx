@@ -5,8 +5,8 @@ const BlogCard = ({ blog }) => {
   const { img, title, date, post } = blog;
 
   return (
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin">
-      <div class="news-box">
+    <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin">
+      <div className="news-box">
         <figure>
           <img
             src={img}

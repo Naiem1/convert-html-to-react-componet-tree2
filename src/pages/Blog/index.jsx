@@ -12,11 +12,11 @@ const BlogPage = () => {
       <PageTitle title='Blog'/>
       
       {/* LATEST NEWS */}
-      <div class="Lastestnews blog">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="titlepage">
+      <div className="Lastestnews blog">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="titlepage">
                 <span>
                   {data.blog.desc1} <br />
                   {data.blog.desc2}
@@ -24,7 +24,7 @@ const BlogPage = () => {
               </div>
             </div>
           </div>
-          <div class="row">
+          <div className="row">
             {
               data.blog.post.map(post => (
                 <BlogCard blog={post}/>

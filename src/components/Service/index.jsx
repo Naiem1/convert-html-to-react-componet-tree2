@@ -6,7 +6,6 @@ import ServiceCard from '../ServiceCard';
 const Service = () => {
 
   const { highlighted, strong, desc } = data.service;
-  console.log(data.service);
 
   return (
     <div className="service">
@@ -18,8 +17,11 @@ const Service = () => {
       <div className="container">
         <div className="row">
           {
-            data.service.serviceCard.map(service => (
-            <ServiceCard service={ service }/>
+            data.service.serviceCard.map((service, i) => (
+              <ServiceCard
+                key={i}
+                service={service}
+              />
             ))
           }
         </div>

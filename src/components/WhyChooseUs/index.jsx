@@ -11,9 +11,11 @@ const WhyChooseUs = () => {
           <div className="row">
             {
               data.whyChooseUs.map(
-                service => <WhyChooseUsCard
+                (service, i) => (
+                  <WhyChooseUsCard
+                  key={i}
                   service={service}
-                />)
+                />))
             }
             <Button/>
           </div>

@@ -9,7 +9,7 @@ const SocialLink = () => {
   return (
     <>
       {
-        data.socialIcon.map(icons => {
+        data.socialIcon.map((icons) => {
           return (
             <li>
               <a href="#icons">
