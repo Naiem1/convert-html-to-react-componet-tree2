@@ -4,7 +4,6 @@ import Navigation from '../components/Navigation';
 import AboutPage from '../pages/About';
 import BlogPage from '../pages/Blog';
 import ContactPage from '../pages/Contact';
-import Demo from '../pages/demo';
 import HomePage from '../pages/Home';
 import ProductPage from '../pages/Product';
 
@@ -18,7 +17,6 @@ const AppRouter = () => {
         <ProductPage path='/product' />
         <BlogPage path='/blog' />
         <ContactPage path='/contact' />
-        <Demo path='/demo'/>
       </Router>
       <Footer/>
     </div>
